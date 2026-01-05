@@ -1,0 +1,14 @@
+# Target labels
+ picotoolBuild
+# Source files and their labels
+/home/victor/pico_sysmon/device/build/CMakeFiles/picotoolBuild
+/home/victor/pico_sysmon/device/build/CMakeFiles/picotoolBuild.rule
+/home/victor/pico_sysmon/device/build/CMakeFiles/picotoolBuild-complete.rule
+/home/victor/pico_sysmon/device/build/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule
+/home/victor/pico_sysmon/device/build/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule
+/home/victor/pico_sysmon/device/build/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule
+/home/victor/pico_sysmon/device/build/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule
+/home/victor/pico_sysmon/device/build/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule
+/home/victor/pico_sysmon/device/build/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule
+/home/victor/pico_sysmon/device/build/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule
+/home/victor/pico_sysmon/device/build/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule

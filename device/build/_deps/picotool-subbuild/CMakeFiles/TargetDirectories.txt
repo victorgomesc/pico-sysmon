@@ -1,0 +1,3 @@
+/home/victor/pico_sysmon/device/build/_deps/picotool-subbuild/CMakeFiles/picotool-populate.dir
+/home/victor/pico_sysmon/device/build/_deps/picotool-subbuild/CMakeFiles/edit_cache.dir
+/home/victor/pico_sysmon/device/build/_deps/picotool-subbuild/CMakeFiles/rebuild_cache.dir
