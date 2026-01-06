@@ -1469,6 +1469,11 @@ deps_pico_sysmon.o := \
   /usr/src/linux-headers-6.14.0-37-generic/include/uapi/linux/vesa.h \
   /usr/src/linux-headers-6.14.0-37-generic/arch/x86/include/asm/video.h \
   /usr/src/linux-headers-6.14.0-37-generic/include/asm-generic/video.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/thermal.h \
+    $(wildcard include/config/THERMAL_DEBUGFS) \
+    $(wildcard include/config/THERMAL_OF) \
+    $(wildcard include/config/THERMAL) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/uapi/linux/thermal.h \
   /usr/src/linux-headers-6.14.0-37-generic/include/linux/sched/loadavg.h \
 
 pico_sysmon.o: $(deps_pico_sysmon.o)

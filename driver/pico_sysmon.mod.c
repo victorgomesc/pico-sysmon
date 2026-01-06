@@ -38,9 +38,15 @@ __used __section("__versions") = {
 	{ 0xc7ffe1aa, "si_meminfo" },
 	{ 0x058c185a, "jiffies" },
 	{ 0xe199f25f, "jiffies_to_msecs" },
+	{ 0xdeb05e81, "thermal_zone_get_zone_by_name" },
+	{ 0x6e550cfe, "thermal_zone_get_temp" },
+	{ 0x318e45ff, "filp_open" },
+	{ 0x4cd313ad, "kernel_read" },
+	{ 0xdb9a5310, "filp_close" },
+	{ 0xd09b06f5, "kstrtoint" },
 	{ 0x7ef085e1, "avenrun" },
-	{ 0x992ecee6, "kernel_cpustat" },
 	{ 0x40a621c5, "scnprintf" },
+	{ 0x992ecee6, "kernel_cpustat" },
 	{ 0xf296206e, "nr_cpu_ids" },
 	{ 0xb5c51982, "__cpu_online_mask" },
 	{ 0x86632fd6, "_find_next_bit" },
@@ -81,9 +87,15 @@ __used __section("__version_ext_crcs") = {
 	0xc7ffe1aa,
 	0x058c185a,
 	0xe199f25f,
+	0xdeb05e81,
+	0x6e550cfe,
+	0x318e45ff,
+	0x4cd313ad,
+	0xdb9a5310,
+	0xd09b06f5,
 	0x7ef085e1,
-	0x992ecee6,
 	0x40a621c5,
+	0x992ecee6,
 	0xf296206e,
 	0xb5c51982,
 	0x86632fd6,
@@ -123,9 +135,15 @@ __used __section("__version_ext_names") =
 	"si_meminfo\0"
 	"jiffies\0"
 	"jiffies_to_msecs\0"
+	"thermal_zone_get_zone_by_name\0"
+	"thermal_zone_get_temp\0"
+	"filp_open\0"
+	"kernel_read\0"
+	"filp_close\0"
+	"kstrtoint\0"
 	"avenrun\0"
-	"kernel_cpustat\0"
 	"scnprintf\0"
+	"kernel_cpustat\0"
 	"nr_cpu_ids\0"
 	"__cpu_online_mask\0"
 	"_find_next_bit\0"
@@ -148,4 +166,4 @@ MODULE_INFO(depends, "");
 
 MODULE_ALIAS("usb:vCAFEp5002d*dc*dsc*dp*ic*isc*ip*in*");
 
-MODULE_INFO(srcversion, "54DA7984DAABC5C2F40365B");
+MODULE_INFO(srcversion, "359AFBCBEA12118AC74BCB2");
