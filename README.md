@@ -147,7 +147,7 @@ make -j
 Comfirme que existe:
 
 ```bash
-    ls pico_sysmon_device.uf2
+ls pico_sysmon_device.uf2
 ```
 
 ### Gravar o firmware na Pico 2
@@ -162,19 +162,19 @@ Comfirme que existe:
 Agora descubra o ponto de montagem:
 
 ```bash
-    ls /media/$USER
+ls /media/$USER
 ```
 Normalmente aparecerá:
 
 ```bash
-    RP2350
+RP2350
 ```
 
 Grave o firmware:
 
 ```bash
-    cp pico_sysmon_device.uf2 /media/$USER/RP2350/
-    sync
+cp pico_sysmon_device.uf2 /media/$USER/RP2350/
+sync
 ```
 
 A Pico vai reiniciar automaticamente.
