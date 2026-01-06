@@ -176,10 +176,11 @@ Grave o firmware:
 cp pico_sysmon_device.uf2 /media/$USER/RP2350/
 sync
 ```
-
-A Pico vai reiniciar automaticamente.
-Desconecte o USB
-Reconecte a placa sem BOOTSEL
+<ol>
+    <li>A Pico vai reiniciar automaticamente.</li>
+    <li>Desconecte o USB</li>
+    <li>Reconecte a placa sem BOOTSEL</li>
+</ol>
 
 Verifique:
 
