@@ -5,6 +5,7 @@
 #define USB_PID 0x5002
 #define USB_BCD 0x0100
 
+
 enum { STRID_LANGID=0, STRID_MANUFACTURER, STRID_PRODUCT, STRID_SERIAL };
 
 tusb_desc_device_t const desc_device = {

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/victor/.pico-sdk/sdk/2.2.0/src/boards/include/boards/pico.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/boards/include/boards/pico2.h
 
 /home/victor/.pico-sdk/sdk/2.2.0/src/common/boot_picobin_headers/include/boot/picobin.h
 pico/platform.h
@@ -52,63 +52,87 @@ stddef.h
 
 /home/victor/.pico-sdk/sdk/2.2.0/src/common/pico_binary_info/include/pico/binary_info/defs.h
 
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_regs/include/hardware/platform_defs.h
 
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h
+
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h
 hardware/platform_defs.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/hardware/platform_defs.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_regs/include/hardware/regs/hardware/platform_defs.h
 
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_regs/include/hardware/regs/bootram.h
 
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h
 
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/sio.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_regs/include/hardware/regs/m33.h
 
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_regs/include/hardware/regs/rvcsr.h
+
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_regs/include/hardware/regs/sio.h
+
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h
 hardware/address_mapped.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/hardware/address_mapped.h
-hardware/regs/m0plus.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/hardware/regs/m0plus.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_structs/include/hardware/structs/hardware/address_mapped.h
+hardware/regs/accessctrl.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_structs/include/hardware/structs/hardware/regs/accessctrl.h
 
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/nvic.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_structs/include/hardware/structs/bootram.h
 hardware/address_mapped.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/hardware/address_mapped.h
-hardware/regs/m0plus.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/hardware/regs/m0plus.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_structs/include/hardware/structs/hardware/address_mapped.h
+hardware/regs/bootram.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_structs/include/hardware/structs/hardware/regs/bootram.h
 
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/scb.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_structs/include/hardware/structs/m33.h
 hardware/address_mapped.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/hardware/address_mapped.h
-hardware/regs/m0plus.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/hardware/regs/m0plus.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_structs/include/hardware/structs/hardware/address_mapped.h
+hardware/regs/m33.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_structs/include/hardware/structs/hardware/regs/m33.h
 
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/include/pico/asm_helper.S
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_structs/include/hardware/structs/nvic.h
+hardware/address_mapped.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_structs/include/hardware/structs/hardware/address_mapped.h
+hardware/regs/m33.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_structs/include/hardware/structs/hardware/regs/m33.h
+
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_structs/include/hardware/structs/scb.h
+hardware/address_mapped.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_structs/include/hardware/structs/hardware/address_mapped.h
+hardware/regs/m33.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_structs/include/hardware/structs/hardware/regs/m33.h
+
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/include/pico/asm_helper.S
 pico.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/include/pico/pico.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/include/pico/pico.h
+hardware/hazard3/instructions.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/include/pico/hardware/hazard3/instructions.h
 
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/include/pico/platform.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/include/pico/platform.h
 pico/platform/compiler.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/include/pico/pico/platform/compiler.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/include/pico/pico/platform/compiler.h
 pico/platform/sections.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/include/pico/pico/platform/sections.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/include/pico/pico/platform/sections.h
 pico/platform/panic.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/include/pico/pico/platform/panic.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/include/pico/pico/platform/panic.h
 pico/platform/common.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/include/pico/pico/platform/common.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/include/pico/pico/platform/common.h
 hardware/regs/addressmap.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/include/pico/hardware/regs/addressmap.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/include/pico/hardware/regs/addressmap.h
 hardware/regs/sio.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/include/pico/hardware/regs/sio.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/include/pico/hardware/regs/sio.h
+hardware/regs/rvcsr.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/include/pico/hardware/regs/rvcsr.h
 
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h
-hardware/regs/m0plus.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/include/pico/platform/hardware/regs/m0plus.h
-hardware/structs/m0plus.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/include/pico/platform/hardware/structs/m0plus.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h
+hardware/hazard3.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/include/pico/platform/hardware/hazard3.h
+hardware/regs/m33.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/include/pico/platform/hardware/regs/m33.h
+hardware/structs/m33.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/include/pico/platform/hardware/structs/m33.h
 hardware/structs/nvic.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/include/pico/platform/hardware/structs/nvic.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/include/pico/platform/hardware/structs/nvic.h
 hardware/structs/scb.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/include/pico/platform/hardware/structs/scb.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/include/pico/platform/hardware/structs/scb.h
 
 /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h
 pico/platform.h
@@ -132,19 +156,9 @@ hardware/sync.h
 hardware/structs/bootram.h
 /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/include/hardware/hardware/structs/bootram.h
 
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S
-pico/asm_helper.S
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/pico/asm_helper.S
-hardware/regs/addressmap.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/hardware/regs/addressmap.h
-hardware/regs/sio.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/hardware/regs/sio.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dcp/include/hardware/dcp_canned.inc.S
 
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/include/hardware/divider_helper.S
-hardware/regs/addressmap.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/include/hardware/hardware/regs/addressmap.h
-hardware/regs/sio.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/include/hardware/hardware/regs/sio.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dcp/include/hardware/dcp_instr.inc.S
 
 /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/include/hardware/irq.h
 pico.h
@@ -206,8 +220,6 @@ hardware/boot_lock.h
 pico/bootrom_constants.h
 /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/include/pico/bootrom/pico/bootrom_constants.h
 
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
-
 /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h
 boot/bootrom_constants.h
 /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/include/pico/boot/bootrom_constants.h
@@ -238,25 +250,27 @@ embedded_end_block.inc.S
 
 /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/embedded_start_block.inc.S
 
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S
-pico/asm_helper.S
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/pico/asm_helper.S
-hardware/regs/addressmap.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/hardware/regs/addressmap.h
-hardware/divider_helper.S
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/hardware/divider_helper.S
-
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_dcp.S
 pico/asm_helper.S
 /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/pico/asm_helper.S
-pico/runtime_init.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/pico/runtime_init.h
-pico/bootrom/sf_table.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/pico/bootrom/sf_table.h
-hardware/divider_helper.S
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/hardware/divider_helper.S
+hardware/dcp_instr.inc.S
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/hardware/dcp_instr.inc.S
+hardware/dcp_canned.inc.S
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/hardware/dcp_canned.inc.S
 
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_conv_m33.S
+pico/asm_helper.S
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/pico/asm_helper.S
+
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_fma_dcp.S
+pico/asm_helper.S
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/pico/asm_helper.S
+hardware/dcp_instr.inc.S
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/hardware/dcp_instr.inc.S
+hardware/dcp_canned.inc.S
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/hardware/dcp_canned.inc.S
+
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_sci_m33.S
 pico/asm_helper.S
 /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/pico/asm_helper.S
 
@@ -264,31 +278,17 @@ pico/asm_helper.S
 pico.h
 /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/include/pico/pico.h
 
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S
-pico/asm_helper.S
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/pico/asm_helper.S
-pico/runtime_init.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/pico/runtime_init.h
-pico/bootrom/sf_table.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/pico/bootrom/sf_table.h
-hardware/divider_helper.S
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/hardware/divider_helper.S
-
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_common_m33.S
 pico/asm_helper.S
 /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/pico/asm_helper.S
 
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_conv32_vfp.S
 pico/asm_helper.S
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico/asm_helper.S
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/pico/asm_helper.S
 
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_sci_m33_vfp.S
 pico/asm_helper.S
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/pico/asm_helper.S
-pico/bootrom.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/pico/bootrom.h
-pico/runtime_init.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/pico/runtime_init.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/pico/asm_helper.S
 
 /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/include/pico/platform/common.h
 
@@ -315,7 +315,7 @@ pico/runtime.h
 /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/include/pico/pico/runtime.h
 
 generated/pico_base/pico/config_autogen.h
-/home/victor/.pico-sdk/sdk/2.2.0/src/boards/include/boards/pico.h
+/home/victor/.pico-sdk/sdk/2.2.0/src/boards/include/boards/pico2.h
 -
 /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 -

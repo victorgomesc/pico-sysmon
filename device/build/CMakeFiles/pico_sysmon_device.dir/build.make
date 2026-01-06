@@ -125,19 +125,19 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.s
 
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c
 
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c > CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.i
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c > CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c.i
 
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.s
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c.s
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c
@@ -530,18 +530,19 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.s
 
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o: CMakeFiles/pico_sysmon_device.dir/flags.make
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o   -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c
 
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.i"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S > CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.i
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c > CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c.i
 
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.s"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.s
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c.s
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c
@@ -612,50 +613,24 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s
 
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.o: CMakeFiles/pico_sysmon_device.dir/flags.make
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.o"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.o   -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c
 
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.i"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S > CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.i
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c > CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c.i
 
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.s"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.s
-
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: CMakeFiles/pico_sysmon_device.dir/flags.make
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.o"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.o   -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S
-
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.i"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S > CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.i
-
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.s"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.s
-
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c
-
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c > CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
-
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c.s
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -666,63 +641,62 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.s
 
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: CMakeFiles/pico_sysmon_device.dir/flags.make
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o   -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_dcp.S.o: CMakeFiles/pico_sysmon_device.dir/flags.make
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_dcp.S.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_dcp.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_dcp.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_dcp.S.o   -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_dcp.S
 
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S > CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_dcp.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_dcp.S.i"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_dcp.S > CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_dcp.S.i
 
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.s"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.s
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_dcp.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_dcp.S.s"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_dcp.S -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_dcp.S.s
 
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: CMakeFiles/pico_sysmon_device.dir/flags.make
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o   -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_fma_dcp.S.o: CMakeFiles/pico_sysmon_device.dir/flags.make
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_fma_dcp.S.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_fma_dcp.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_fma_dcp.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_fma_dcp.S.o   -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_fma_dcp.S
 
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S > CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_fma_dcp.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_fma_dcp.S.i"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_fma_dcp.S > CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_fma_dcp.S.i
 
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_fma_dcp.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_fma_dcp.S.s"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_fma_dcp.S -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_fma_dcp.S.s
 
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: CMakeFiles/pico_sysmon_device.dir/flags.make
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building ASM object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.o"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.o   -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_sci_m33.S.o: CMakeFiles/pico_sysmon_device.dir/flags.make
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_sci_m33.S.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_sci_m33.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_sci_m33.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_sci_m33.S.o   -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_sci_m33.S
 
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.i"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S > CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.i
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_sci_m33.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_sci_m33.S.i"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_sci_m33.S > CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_sci_m33.S.i
 
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.s"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.s
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_sci_m33.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_sci_m33.S.s"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_sci_m33.S -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_sci_m33.S.s
 
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_conv_m33.S.o: CMakeFiles/pico_sysmon_device.dir/flags.make
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_conv_m33.S.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_conv_m33.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_conv_m33.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_conv_m33.S.o   -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_conv_m33.S
 
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c > CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_conv_m33.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_conv_m33.S.i"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_conv_m33.S > CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_conv_m33.S.i
 
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_conv_m33.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_conv_m33.S.s"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_conv_m33.S -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_conv_m33.S.s
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -733,18 +707,44 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.s
 
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: CMakeFiles/pico_sysmon_device.dir/flags.make
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o   -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_conv32_vfp.S.o: CMakeFiles/pico_sysmon_device.dir/flags.make
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_conv32_vfp.S.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_conv32_vfp.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building ASM object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_conv32_vfp.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_conv32_vfp.S.o   -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_conv32_vfp.S
 
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S > CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_conv32_vfp.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_conv32_vfp.S.i"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_conv32_vfp.S > CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_conv32_vfp.S.i
 
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.s"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.s
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_conv32_vfp.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_conv32_vfp.S.s"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_conv32_vfp.S -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_conv32_vfp.S.s
+
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_common_m33.S.o: CMakeFiles/pico_sysmon_device.dir/flags.make
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_common_m33.S.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_common_m33.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_common_m33.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_common_m33.S.o   -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_common_m33.S
+
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_common_m33.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_common_m33.S.i"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_common_m33.S > CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_common_m33.S.i
+
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_common_m33.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_common_m33.S.s"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_common_m33.S -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_common_m33.S.s
+
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_sci_m33_vfp.S.o: CMakeFiles/pico_sysmon_device.dir/flags.make
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_sci_m33_vfp.S.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_sci_m33_vfp.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_sci_m33_vfp.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_sci_m33_vfp.S.o   -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_sci_m33_vfp.S
+
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_sci_m33_vfp.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_sci_m33_vfp.S.i"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_sci_m33_vfp.S > CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_sci_m33_vfp.S.i
+
+CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_sci_m33_vfp.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_sci_m33_vfp.S.s"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_sci_m33_vfp.S -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_sci_m33_vfp.S.s
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c
@@ -760,23 +760,10 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.s
 
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: CMakeFiles/pico_sysmon_device.dir/flags.make
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building ASM object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o   -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S > CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i
-
-CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s
-
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.i: cmake_force
@@ -790,7 +777,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.i: cmake_force
@@ -804,7 +791,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i: cmake_force
@@ -818,7 +805,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -831,7 +818,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building ASM object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building ASM object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o   -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.i: cmake_force
@@ -845,7 +832,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.i: cmake_force
@@ -859,7 +846,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -873,7 +860,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
@@ -887,7 +874,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -901,7 +888,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/sr
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -915,7 +902,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/sr
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o: /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -929,7 +916,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/sr
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o: /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -943,7 +930,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/sr
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o: /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -957,7 +944,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/sr
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o: /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -971,7 +958,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/sr
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o: /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -985,7 +972,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/sr
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -999,7 +986,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/sr
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o: /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -1013,7 +1000,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/sr
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o: /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -1027,7 +1014,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/sr
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o: /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -1041,7 +1028,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/sr
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -1055,7 +1042,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/sr
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o: /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -1069,7 +1056,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/sr
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -1083,7 +1070,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/sr
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o: /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -1097,7 +1084,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/sr
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o: /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -1111,7 +1098,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/sr
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o: /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -1125,7 +1112,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/sr
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o: /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -1139,7 +1126,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/sr
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -1153,7 +1140,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.o: /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.i: cmake_force
@@ -1167,7 +1154,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -1181,7 +1168,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -1195,7 +1182,7 @@ CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/pico_sysmon_device.dir/flags.make
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/pico_sysmon_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o -MF CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o.d -o CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o -c /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c
 
 CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.i: cmake_force
@@ -1212,7 +1199,7 @@ pico_sysmon_device_OBJECTS = \
 "CMakeFiles/pico_sysmon_device.dir/usb_descriptors.c.o" \
 "CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o" \
 "CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o" \
-"CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o" \
+"CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c.o" \
 "CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o" \
 "CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o" \
 "CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o" \
@@ -1241,24 +1228,23 @@ pico_sysmon_device_OBJECTS = \
 "CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o" \
 "CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o" \
 "CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o" \
-"CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o" \
+"CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c.o" \
 "CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o" \
 "CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o" \
 "CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o" \
 "CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o" \
 "CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o" \
-"CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.o" \
-"CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.o" \
-"CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o" \
+"CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c.o" \
 "CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o" \
-"CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o" \
-"CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o" \
-"CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.o" \
-"CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o" \
+"CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_dcp.S.o" \
+"CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_fma_dcp.S.o" \
+"CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_sci_m33.S.o" \
+"CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_conv_m33.S.o" \
 "CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o" \
-"CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o" \
+"CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_conv32_vfp.S.o" \
+"CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_common_m33.S.o" \
+"CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_sci_m33_vfp.S.o" \
 "CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o" \
-"CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o" \
 "CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o" \
 "CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o" \
 "CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o" \
@@ -1298,7 +1284,7 @@ pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/main.c.o
 pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/usb_descriptors.c.o
 pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o
 pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o
-pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o
+pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c.o
 pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o
 pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o
 pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o
@@ -1327,24 +1313,23 @@ pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/
 pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o
 pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o
 pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o
-pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o
+pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c.o
 pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o
 pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o
 pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
 pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
 pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
-pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.o
-pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
-pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c.o
 pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o
-pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
-pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
-pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
-pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_dcp.S.o
+pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_fma_dcp.S.o
+pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_sci_m33.S.o
+pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_conv_m33.S.o
 pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o
-pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_conv32_vfp.S.o
+pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_common_m33.S.o
+pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_sci_m33_vfp.S.o
 pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o
-pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
 pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o
 pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o
 pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
@@ -1377,16 +1362,17 @@ pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/
 pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o
 pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o
 pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/build.make
-pico_sysmon_device.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
-pico_sysmon_device.elf: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
+pico_sysmon_device.elf: pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
+pico_sysmon_device.elf: /home/victor/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/rp2350/memmap_default.ld
 pico_sysmon_device.elf: CMakeFiles/pico_sysmon_device.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Linking CXX executable pico_sysmon_device.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/victor/pico_sysmon/device/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Linking CXX executable pico_sysmon_device.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pico_sysmon_device.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objdump -h /home/victor/pico_sysmon/device/build/pico_sysmon_device.elf > pico_sysmon_device.dis
 	/usr/bin/arm-none-eabi-objdump -d /home/victor/pico_sysmon/device/build/pico_sysmon_device.elf >> pico_sysmon_device.dis
+	_deps/picotool/picotool coprodis --quiet pico_sysmon_device.dis pico_sysmon_device.dis
 	/usr/bin/arm-none-eabi-objcopy -Oihex /home/victor/pico_sysmon/device/build/pico_sysmon_device.elf pico_sysmon_device.hex
 	/usr/bin/arm-none-eabi-objcopy -Obinary /home/victor/pico_sysmon/device/build/pico_sysmon_device.elf pico_sysmon_device.bin
-	_deps/picotool/picotool uf2 convert --quiet /home/victor/pico_sysmon/device/build/pico_sysmon_device.elf pico_sysmon_device.uf2 --family rp2040
+	_deps/picotool/picotool uf2 convert --quiet /home/victor/pico_sysmon/device/build/pico_sysmon_device.elf pico_sysmon_device.uf2 --family rp2350-arm-s --abs-block
 
 # Rule to build all files generated by this target.
 CMakeFiles/pico_sysmon_device.dir/build: pico_sysmon_device.elf

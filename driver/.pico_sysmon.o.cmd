@@ -1147,6 +1147,65 @@ deps_pico_sysmon.o := \
   /usr/src/linux-headers-6.14.0-37-generic/include/linux/cdev.h \
   /usr/src/linux-headers-6.14.0-37-generic/include/linux/kernel_stat.h \
     $(wildcard include/config/GENERIC_IRQ_STAT_SNAPSHOT) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/pci.h \
+    $(wildcard include/config/PCI_IOV) \
+    $(wildcard include/config/PCIEAER) \
+    $(wildcard include/config/PCIEPORTBUS) \
+    $(wildcard include/config/PCIEASPM) \
+    $(wildcard include/config/HOTPLUG_PCI_PCIE) \
+    $(wildcard include/config/PCIE_PTM) \
+    $(wildcard include/config/PCIE_DPC) \
+    $(wildcard include/config/PCI_ATS) \
+    $(wildcard include/config/PCI_PRI) \
+    $(wildcard include/config/PCI_PASID) \
+    $(wildcard include/config/PCI_P2PDMA) \
+    $(wildcard include/config/PCI_DOE) \
+    $(wildcard include/config/PCI_NPEM) \
+    $(wildcard include/config/PCIE_TPH) \
+    $(wildcard include/config/PCI_DOMAINS_GENERIC) \
+    $(wildcard include/config/PCI) \
+    $(wildcard include/config/HOTPLUG_PCI) \
+    $(wildcard include/config/PCI_DOMAINS) \
+    $(wildcard include/config/PCI_QUIRKS) \
+    $(wildcard include/config/ACPI_MCFG) \
+    $(wildcard include/config/X86) \
+    $(wildcard include/config/EEH) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/io.h \
+    $(wildcard include/config/HAS_IOPORT_MAP) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/sizes.h \
+  /usr/src/linux-headers-6.14.0-37-generic/arch/x86/include/asm/io.h \
+    $(wildcard include/config/MTRR) \
+    $(wildcard include/config/X86_PAT) \
+  /usr/src/linux-headers-6.14.0-37-generic/arch/x86/include/generated/asm/early_ioremap.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/asm-generic/early_ioremap.h \
+    $(wildcard include/config/GENERIC_EARLY_IOREMAP) \
+  /usr/src/linux-headers-6.14.0-37-generic/arch/x86/include/asm/shared/io.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/asm-generic/io.h \
+    $(wildcard include/config/GENERIC_IOMAP) \
+    $(wildcard include/config/TRACE_MMIO_ACCESS) \
+    $(wildcard include/config/HAS_IOPORT) \
+    $(wildcard include/config/GENERIC_IOREMAP) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/asm-generic/iomap.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/asm-generic/pci_iomap.h \
+    $(wildcard include/config/NO_GENERIC_PCI_IOPORT_MAP) \
+    $(wildcard include/config/GENERIC_PCI_IOMAP) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/logic_pio.h \
+    $(wildcard include/config/INDIRECT_PIO) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/fwnode.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/resource_ext.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/msi_api.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/uapi/linux/pci.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/uapi/linux/pci_regs.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/pci_ids.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/dmapool.h \
+    $(wildcard include/config/HAS_DMA) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/scatterlist.h \
+    $(wildcard include/config/NEED_SG_DMA_LENGTH) \
+    $(wildcard include/config/NEED_SG_DMA_FLAGS) \
+    $(wildcard include/config/DEBUG_SG) \
+    $(wildcard include/config/SGL_ALLOC) \
+    $(wildcard include/config/ARCH_NO_SG_CHAIN) \
+    $(wildcard include/config/SG_POOL) \
   /usr/src/linux-headers-6.14.0-37-generic/include/linux/mm.h \
     $(wildcard include/config/HAVE_ARCH_MMAP_RND_BITS) \
     $(wildcard include/config/HAVE_ARCH_MMAP_RND_COMPAT_BITS) \
@@ -1154,7 +1213,6 @@ deps_pico_sysmon.o := \
     $(wildcard include/config/ARCH_HAS_PKEYS) \
     $(wildcard include/config/ARCH_PKEY_BITS) \
     $(wildcard include/config/ARM64_GCS) \
-    $(wildcard include/config/X86) \
     $(wildcard include/config/PARISC) \
     $(wildcard include/config/SPARC64) \
     $(wildcard include/config/ARM64_MTE) \
@@ -1183,7 +1241,6 @@ deps_pico_sysmon.o := \
     $(wildcard include/config/HAVE_RELIABLE_STACKTRACE) \
   /usr/src/linux-headers-6.14.0-37-generic/include/linux/page_ref.h \
     $(wildcard include/config/DEBUG_PAGE_REF) \
-  /usr/src/linux-headers-6.14.0-37-generic/include/linux/sizes.h \
   /usr/src/linux-headers-6.14.0-37-generic/include/linux/pgtable.h \
     $(wildcard include/config/ARCH_HAS_NONLEAF_PMD_YOUNG) \
     $(wildcard include/config/ARCH_HAS_HW_PTE_YOUNG) \
@@ -1193,7 +1250,6 @@ deps_pico_sysmon.o := \
     $(wildcard include/config/X86_ESPFIX64) \
   /usr/src/linux-headers-6.14.0-37-generic/include/linux/memremap.h \
     $(wildcard include/config/DEVICE_PRIVATE) \
-    $(wildcard include/config/PCI_P2PDMA) \
   /usr/src/linux-headers-6.14.0-37-generic/include/linux/cacheinfo.h \
     $(wildcard include/config/ACPI_PPTT) \
     $(wildcard include/config/ARM) \
@@ -1208,6 +1264,211 @@ deps_pico_sysmon.o := \
   /usr/src/linux-headers-6.14.0-37-generic/include/linux/vm_event_item.h \
     $(wildcard include/config/MEMORY_BALLOON) \
     $(wildcard include/config/BALLOON_COMPACTION) \
+  /usr/src/linux-headers-6.14.0-37-generic/arch/x86/include/asm/pci.h \
+    $(wildcard include/config/VMD) \
+  /usr/src/linux-headers-6.14.0-37-generic/arch/x86/include/asm/memtype.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/dma-mapping.h \
+    $(wildcard include/config/DMA_API_DEBUG) \
+    $(wildcard include/config/NEED_DMA_MAP_STATE) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/dma-direction.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/fb.h \
+    $(wildcard include/config/GUMSTIX_AM200EPD) \
+    $(wildcard include/config/FB_NOTIFY) \
+    $(wildcard include/config/FB_DEFERRED_IO) \
+    $(wildcard include/config/FB_TILEBLITTING) \
+    $(wildcard include/config/FB_BACKLIGHT) \
+    $(wildcard include/config/FB_DEVICE) \
+    $(wildcard include/config/FB_FOREIGN_ENDIAN) \
+    $(wildcard include/config/FB_BOTH_ENDIAN) \
+    $(wildcard include/config/FB_BIG_ENDIAN) \
+    $(wildcard include/config/FB_LITTLE_ENDIAN) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/uapi/linux/fb.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/i2c.h \
+    $(wildcard include/config/I2C) \
+    $(wildcard include/config/I2C_SLAVE) \
+    $(wildcard include/config/I2C_BOARDINFO) \
+    $(wildcard include/config/I2C_MUX) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/acpi.h \
+    $(wildcard include/config/ACPI_TABLE_LIB) \
+    $(wildcard include/config/ACPI_DEBUGGER) \
+    $(wildcard include/config/LOONGARCH) \
+    $(wildcard include/config/RISCV) \
+    $(wildcard include/config/ACPI_PROCESSOR_CSTATE) \
+    $(wildcard include/config/ACPI_HOTPLUG_CPU) \
+    $(wildcard include/config/ACPI_HOTPLUG_IOAPIC) \
+    $(wildcard include/config/ACPI_WMI) \
+    $(wildcard include/config/ACPI_THERMAL_LIB) \
+    $(wildcard include/config/ACPI_HMAT) \
+    $(wildcard include/config/ACPI_NUMA) \
+    $(wildcard include/config/HIBERNATION) \
+    $(wildcard include/config/ACPI_HOTPLUG_MEMORY) \
+    $(wildcard include/config/ACPI_CONTAINER) \
+    $(wildcard include/config/ACPI_GTDT) \
+    $(wildcard include/config/SUSPEND) \
+    $(wildcard include/config/ACPI_EC) \
+    $(wildcard include/config/GPIOLIB) \
+    $(wildcard include/config/ACPI_TABLE_UPGRADE) \
+    $(wildcard include/config/ACPI_WATCHDOG) \
+    $(wildcard include/config/ACPI_SPCR_TABLE) \
+    $(wildcard include/config/ACPI_GENERIC_GSI) \
+    $(wildcard include/config/ACPI_LPIT) \
+    $(wildcard include/config/ACPI_PROCESSOR_IDLE) \
+    $(wildcard include/config/ACPI_PCC) \
+    $(wildcard include/config/ACPI_FFH) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/property.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/node.h \
+    $(wildcard include/config/HMEM_REPORTING) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/acpi/acpi.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/acpi/platform/acenv.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/acpi/platform/acgcc.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/acpi/platform/aclinux.h \
+    $(wildcard include/config/ACPI_REDUCED_HARDWARE_ONLY) \
+    $(wildcard include/config/ACPI_DEBUG) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/ctype.h \
+  /usr/src/linux-headers-6.14.0-37-generic/arch/x86/include/asm/acenv.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/acpi/acnames.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/acpi/actypes.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/acpi/acexcep.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/acpi/actbl.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/acpi/actbl1.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/acpi/actbl2.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/acpi/actbl3.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/acpi/acrestyp.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/acpi/platform/acenvex.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/acpi/platform/aclinuxex.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/acpi/platform/acgccex.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/acpi/acoutput.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/acpi/acpiosxf.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/acpi/acpixf.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/acpi/acconfig.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/acpi/acbuffer.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/acpi/acpi_numa.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/fw_table.h \
+    $(wildcard include/config/CXL_BUS) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/acpi/acpi_bus.h \
+    $(wildcard include/config/X86_ANDROID_TABLETS) \
+    $(wildcard include/config/ACPI_SYSTEM_POWER_STATES_SUPPORT) \
+    $(wildcard include/config/ACPI_SLEEP) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/acpi/acpi_drivers.h \
+    $(wildcard include/config/ACPI_DOCK) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/acpi/acpi_io.h \
+  /usr/src/linux-headers-6.14.0-37-generic/arch/x86/include/asm/acpi.h \
+    $(wildcard include/config/ACPI_APEI) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/acpi/proc_cap_intel.h \
+  /usr/src/linux-headers-6.14.0-37-generic/arch/x86/include/asm/numa.h \
+  /usr/src/linux-headers-6.14.0-37-generic/arch/x86/include/asm/xen/hypervisor.h \
+    $(wildcard include/config/XEN_PV_DOM0) \
+    $(wildcard include/config/PVH) \
+    $(wildcard include/config/XEN_DOM0) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/xen/xen.h \
+    $(wildcard include/config/XEN_PVH) \
+    $(wildcard include/config/XEN_BALLOON) \
+    $(wildcard include/config/XEN_UNPOPULATED_ALLOC) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/xen/interface/hvm/start_info.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/xen/interface/xen.h \
+  /usr/src/linux-headers-6.14.0-37-generic/arch/x86/include/asm/xen/interface.h \
+  /usr/src/linux-headers-6.14.0-37-generic/arch/x86/include/asm/xen/interface_64.h \
+  /usr/src/linux-headers-6.14.0-37-generic/arch/x86/include/asm/pvclock-abi.h \
+  /usr/src/linux-headers-6.14.0-37-generic/arch/x86/include/asm/emulate_prefix.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/regulator/consumer.h \
+    $(wildcard include/config/REGULATOR) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/suspend.h \
+    $(wildcard include/config/VT) \
+    $(wildcard include/config/HIBERNATION_SNAPSHOT_DEV) \
+    $(wildcard include/config/PM_SLEEP_DEBUG) \
+    $(wildcard include/config/PM_AUTOSLEEP) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/swap.h \
+    $(wildcard include/config/THP_SWAP) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/memcontrol.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/cgroup.h \
+    $(wildcard include/config/DEBUG_CGROUP_REF) \
+    $(wildcard include/config/CGROUP_CPUACCT) \
+    $(wildcard include/config/SOCK_CGROUP_DATA) \
+    $(wildcard include/config/CGROUP_DATA) \
+    $(wildcard include/config/CGROUP_BPF) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/uapi/linux/cgroupstats.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/uapi/linux/taskstats.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/seq_file.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/string_helpers.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/string_choices.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/ns_common.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/nsproxy.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/user_namespace.h \
+    $(wildcard include/config/INOTIFY_USER) \
+    $(wildcard include/config/FANOTIFY) \
+    $(wildcard include/config/BINFMT_MISC) \
+    $(wildcard include/config/PERSISTENT_KEYRINGS) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/cgroup-defs.h \
+    $(wildcard include/config/CGROUP_NET_CLASSID) \
+    $(wildcard include/config/CGROUP_NET_PRIO) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/u64_stats_sync.h \
+  /usr/src/linux-headers-6.14.0-37-generic/arch/x86/include/generated/asm/local64.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/asm-generic/local64.h \
+  /usr/src/linux-headers-6.14.0-37-generic/arch/x86/include/asm/local.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/bpf-cgroup-defs.h \
+    $(wildcard include/config/BPF_LSM) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/psi_types.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/kthread.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/cgroup_subsys.h \
+    $(wildcard include/config/CGROUP_DEVICE) \
+    $(wildcard include/config/CGROUP_FREEZER) \
+    $(wildcard include/config/CGROUP_PERF) \
+    $(wildcard include/config/CGROUP_HUGETLB) \
+    $(wildcard include/config/CGROUP_PIDS) \
+    $(wildcard include/config/CGROUP_RDMA) \
+    $(wildcard include/config/CGROUP_MISC) \
+    $(wildcard include/config/CGROUP_DMEM) \
+    $(wildcard include/config/CGROUP_DEBUG) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/cgroup_refcnt.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/page_counter.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/vmpressure.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/eventfd.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/uapi/linux/eventfd.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/writeback.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/flex_proportions.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/backing-dev-defs.h \
+    $(wildcard include/config/DEBUG_FS) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/blk_types.h \
+    $(wildcard include/config/FAIL_MAKE_REQUEST) \
+    $(wildcard include/config/BLK_CGROUP_IOCOST) \
+    $(wildcard include/config/BLK_INLINE_ENCRYPTION) \
+    $(wildcard include/config/BLK_DEV_INTEGRITY) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/bvec.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/highmem.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/cacheflush.h \
+  /usr/src/linux-headers-6.14.0-37-generic/arch/x86/include/asm/cacheflush.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/asm-generic/cacheflush.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/kmsan.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/highmem-internal.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/pagevec.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/bio.h \
+    $(wildcard include/config/BLK_DEV_ZONED) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/mempool.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/pagemap.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/hugetlb_inline.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/uapi/linux/mempolicy.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/freezer.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/uapi/regulator/regulator.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/rtmutex.h \
+    $(wildcard include/config/DEBUG_RT_MUTEXES) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/irqdomain.h \
+    $(wildcard include/config/IRQ_DOMAIN_HIERARCHY) \
+    $(wildcard include/config/GENERIC_IRQ_DEBUGFS) \
+    $(wildcard include/config/IRQ_DOMAIN) \
+    $(wildcard include/config/IRQ_DOMAIN_NOMAP) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/irqdomain_defs.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/irqhandler.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/linux/of.h \
+    $(wildcard include/config/OF_DYNAMIC) \
+    $(wildcard include/config/SPARC) \
+    $(wildcard include/config/OF_PROMTREE) \
+    $(wildcard include/config/OF_KOBJ) \
+    $(wildcard include/config/OF_NUMA) \
+    $(wildcard include/config/OF_OVERLAY) \
+  /usr/src/linux-headers-6.14.0-37-generic/include/uapi/linux/i2c.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/uapi/linux/vesa.h \
+  /usr/src/linux-headers-6.14.0-37-generic/arch/x86/include/asm/video.h \
+  /usr/src/linux-headers-6.14.0-37-generic/include/asm-generic/video.h \
   /usr/src/linux-headers-6.14.0-37-generic/include/linux/sched/loadavg.h \
 
 pico_sysmon.o: $(deps_pico_sysmon.o)

@@ -39,12 +39,13 @@ __used __section("__versions") = {
 	{ 0x058c185a, "jiffies" },
 	{ 0xe199f25f, "jiffies_to_msecs" },
 	{ 0x7ef085e1, "avenrun" },
-	{ 0x40a621c5, "scnprintf" },
 	{ 0x992ecee6, "kernel_cpustat" },
+	{ 0x40a621c5, "scnprintf" },
 	{ 0xf296206e, "nr_cpu_ids" },
 	{ 0xb5c51982, "__cpu_online_mask" },
 	{ 0x86632fd6, "_find_next_bit" },
 	{ 0x5ae9ee26, "__per_cpu_offset" },
+	{ 0x32460570, "pci_get_device" },
 	{ 0x092a35a2, "_copy_to_user" },
 	{ 0xf64ac983, "__copy_overflow" },
 	{ 0x90a48d82, "__ubsan_handle_out_of_bounds" },
@@ -81,12 +82,13 @@ __used __section("__version_ext_crcs") = {
 	0x058c185a,
 	0xe199f25f,
 	0x7ef085e1,
-	0x40a621c5,
 	0x992ecee6,
+	0x40a621c5,
 	0xf296206e,
 	0xb5c51982,
 	0x86632fd6,
 	0x5ae9ee26,
+	0x32460570,
 	0x092a35a2,
 	0xf64ac983,
 	0x90a48d82,
@@ -122,12 +124,13 @@ __used __section("__version_ext_names") =
 	"jiffies\0"
 	"jiffies_to_msecs\0"
 	"avenrun\0"
-	"scnprintf\0"
 	"kernel_cpustat\0"
+	"scnprintf\0"
 	"nr_cpu_ids\0"
 	"__cpu_online_mask\0"
 	"_find_next_bit\0"
 	"__per_cpu_offset\0"
+	"pci_get_device\0"
 	"_copy_to_user\0"
 	"__copy_overflow\0"
 	"__ubsan_handle_out_of_bounds\0"
@@ -145,4 +148,4 @@ MODULE_INFO(depends, "");
 
 MODULE_ALIAS("usb:vCAFEp5002d*dc*dsc*dp*ic*isc*ip*in*");
 
-MODULE_INFO(srcversion, "E31215EA239CF0E0540CF11");
+MODULE_INFO(srcversion, "54DA7984DAABC5C2F40365B");

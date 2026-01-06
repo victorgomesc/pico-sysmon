@@ -8,6 +8,9 @@
 #include <linux/mutex.h>
 #include <linux/cpumask.h>
 #include <linux/kernel_stat.h>
+#include <linux/pci.h>
+#include <linux/fb.h>
+
 
 #include <linux/mm.h>          // si_meminfo
 #include <linux/sysinfo.h>
@@ -52,32 +55,83 @@ struct pico_sysmon {
 
 static struct pico_sysmon g;
 
+struct cpu_prev_stat {
+	u64 total;
+	u64 idle;
+};
+
+static struct cpu_prev_stat prev_cpu[NR_CPUS];
+static bool cpu_prev_valid;
+
+
 // ============ Helpers (coleta de métricas) ============
 
-static void append_cpu_stats(char *buf, size_t buf_sz, int *pos)
+static void append_cpu_usage_percent(char *buf, size_t buf_sz, int *pos)
 {
 	int cpu;
 
 	for_each_online_cpu(cpu) {
 		struct kernel_cpustat kstat;
-		u64 idle, total;
+		u64 idle, total, busy;
+		u64 delta_total, delta_idle;
+		u32 usage = 0;
 
 		kstat = kcpustat_cpu(cpu);
 
-		idle  = kstat.cpustat[CPUTIME_IDLE];
-		total = idle
-		      + kstat.cpustat[CPUTIME_USER]
-		      + kstat.cpustat[CPUTIME_SYSTEM]
-		      + kstat.cpustat[CPUTIME_IRQ]
-		      + kstat.cpustat[CPUTIME_SOFTIRQ]
-		      + kstat.cpustat[CPUTIME_NICE];
+		idle = kstat.cpustat[CPUTIME_IDLE];
+		total =
+			kstat.cpustat[CPUTIME_USER] +
+			kstat.cpustat[CPUTIME_SYSTEM] +
+			kstat.cpustat[CPUTIME_IRQ] +
+			kstat.cpustat[CPUTIME_SOFTIRQ] +
+			kstat.cpustat[CPUTIME_NICE] +
+			idle;
+
+		if (cpu_prev_valid) {
+			delta_total = total - prev_cpu[cpu].total;
+			delta_idle  = idle  - prev_cpu[cpu].idle;
+
+			if (delta_total > 0) {
+				busy = delta_total - delta_idle;
+				usage = (busy * 100) / delta_total;
+			}
+		}
+
+		prev_cpu[cpu].total = total;
+		prev_cpu[cpu].idle  = idle;
 
 		if (*pos < buf_sz) {
 			*pos += scnprintf(buf + *pos, buf_sz - *pos,
-				"CPU%-2d : idle=%llu  total=%llu\n",
-				cpu, idle, total);
+				"CPU%-2d : %3u %%\n", cpu, usage);
 		}
 	}
+
+	cpu_prev_valid = true;
+}
+
+static void append_gpu_info(char *buf, size_t buf_sz, int *pos)
+{
+	struct pci_dev *pdev = NULL;
+
+	for_each_pci_dev(pdev) {
+		// Classe VGA ou Display Controller
+		if ((pdev->class >> 8) == PCI_CLASS_DISPLAY_VGA ||
+		    (pdev->class >> 8) == PCI_CLASS_DISPLAY_OTHER) {
+
+			*pos += scnprintf(buf + *pos, buf_sz - *pos,
+				"GPU        : %s\n"
+				"Vendor ID  : 0x%04x\n"
+				"Device ID  : 0x%04x\n",
+				pci_name(pdev),
+				pdev->vendor,
+				pdev->device
+			);
+			return;
+		}
+	}
+
+	*pos += scnprintf(buf + *pos, buf_sz - *pos,
+		"GPU        : Not detected\n");
 }
 
 
@@ -85,7 +139,8 @@ static int build_stats_report(char *out, size_t out_sz)
 {
 	struct sysinfo info;
 	unsigned long uptime_s;
-	unsigned long total_mb, free_mb;
+	unsigned long total_mb, free_mb, used_mb;
+	unsigned int mem_percent;
 	int pos = 0;
 
 	si_meminfo(&info);
@@ -93,38 +148,47 @@ static int build_stats_report(char *out, size_t out_sz)
 	uptime_s = jiffies_to_msecs(jiffies) / 1000;
 	total_mb = (info.totalram * info.mem_unit) / (1024 * 1024);
 	free_mb  = (info.freeram  * info.mem_unit) / (1024 * 1024);
+	used_mb  = total_mb - free_mb;
+	mem_percent = (used_mb * 100) / total_mb;
 
 	pos += scnprintf(out + pos, out_sz - pos,
-		"==============================\n"
-		"        PICO SYSMON\n"
-		"==============================\n"
+		"====================================\n"
+		"           PICO SYSMON\n"
+		"====================================\n"
 		"Mode        : %s\n"
 		"Uptime      : %lu s\n"
 		"Load Avg    : %lu %lu %lu\n"
-		"RAM Total   : %lu MB\n"
-		"RAM Free    : %lu MB\n"
 		"\n"
-		"CPU STATS (per core)\n"
-		"------------------------------\n",
+		"MEMORY\n"
+		"------------------------------------\n"
+		"RAM Usage   : %lu / %lu MB (%u %%)\n"
+		"\n"
+		"CPU USAGE (per core)\n"
+		"------------------------------------\n",
 		g.usb_online ? "USB" : "SIMULATED",
 		uptime_s,
 		avenrun[0] >> FSHIFT,
 		avenrun[1] >> FSHIFT,
 		avenrun[2] >> FSHIFT,
-		total_mb, free_mb
+		used_mb, total_mb, mem_percent
 	);
 
-	append_cpu_stats(out, out_sz, &pos);
+	append_cpu_usage_percent(out, out_sz, &pos);
 
 	pos += scnprintf(out + pos, out_sz - pos,
-		"\n"
-		"Last Command : %s\n"
-		"==============================\n",
+		"\nGPU INFO\n"
+		"------------------------------------\n");
+	append_gpu_info(out, out_sz, &pos);
+
+	pos += scnprintf(out + pos, out_sz - pos,
+		"\nLast Command : %s\n"
+		"====================================\n",
 		g.last_cmd[0] ? g.last_cmd : "(none)"
 	);
 
 	return pos;
 }
+
 
 
 // ============ File ops (/dev/pico_sysmon) ============
