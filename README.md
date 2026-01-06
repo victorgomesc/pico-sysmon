@@ -48,10 +48,10 @@ CPU2  :   0 %
 ```
 
 ## Arquitetura
-pico_sysmon/
-├── device/     # Firmware da Pico 2
-├── driver/     # Driver Linux
-└── user_app/   # Aplicação de usuário (opcional)
+pico_sysmon/ <br>
+├── device/     # Firmware da Pico 2 <br>
+├── driver/     # Driver Linux <br>
+└── user_app/   # Aplicação de usuário (opcional) <br>
 
 
 ## Funcionamento
@@ -238,35 +238,6 @@ hardware conectado. Quando o Raspberry Pi Pico 2 é conectado, o driver
 migra automaticamente para modo USB.
 
 Autor
-Victor Gomes
+Victor Gomes da costa
+Gabriel Braga
 
-yaml
-Copiar código
-
----
-
-# 4️⃣ Texto explicativo para o relatório (PRONTO)
-
-Você pode colar **literalmente**:
-
-> Este trabalho apresenta o desenvolvimento de um driver Linux para monitoramento de recursos do sistema, utilizando um periférico USB genérico como mecanismo de ativação. O driver foi implementado como um módulo do kernel e integra-se ao subsistema USB do Linux, criando dinamicamente um dispositivo de caractere acessível via `/dev/pico_sysmon`.
->
-> O driver implementa operações de leitura e escrita. A operação de leitura retorna métricas do próprio kernel Linux, como tempo de atividade do sistema, carga média, uso de memória e estatísticas de CPU por núcleo. A operação de escrita permite o envio de comandos simples, que são registrados pelo driver e, quando o hardware está conectado, encaminhados ao dispositivo USB.
->
-> Para facilitar o desenvolvimento e a validação do projeto, foi implementado um modo simulado, no qual o dispositivo de caractere permanece disponível mesmo sem o hardware conectado. Quando o Raspberry Pi Pico 2 é conectado, o driver alterna automaticamente para o modo USB real, mantendo a mesma interface para a aplicação de usuário.
->
-> A aplicação em espaço de usuário foi desenvolvida em linguagem C e demonstra o uso das chamadas de sistema `open`, `read` e `write` para interação com o driver.
-
----
-
-# 5️⃣ Status final do seu projeto (importante)
-
-Você agora tem:
-
-✔ Driver Linux real  
-✔ `read()` e `write()` funcionando  
-✔ CPU por core (kernel-level)  
-✔ Saída profissional  
-✔ README pronto  
-✔ Texto de relatório pronto  
-✔ Pode gravar o vídeo **sem o Pico**
