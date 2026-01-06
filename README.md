@@ -82,25 +82,51 @@ Pico SDK configurado
 
 GCC
 
-### 🔧 Compilar e carregar o driver
+## Compilar e gravar o firmware da Pico 2
+
+### Compilar o firmware
 ```bash
-cd pico_sysmon/driver
-make
-sudo insmod pico_sysmon.ko
+cd ~/pico_sysmon/device
+rm -rf build
+mkdir build
+cd build
+cmake ..
+make -j
 ```
-Verificar se o driver está carregado:
+Comfirme que existe:
 
 ```bash
-    lsmod | grep pico_sysmon
+    ls pico_sysmon_device.uf2
 ```
 
-### 🔌 Executar com a Pico conectada
+### Gravar o firmware na Pico 2
 
-Desconecte a Pico do computador.
-Aperte o BOOTSEL.
-Conecte o cabo a porta USB.
+<ol>
+    <li>Desconecte a Pico</li>
+    <li>Segure o botão BOOTSEL<li>
+    <li>Conecte o USB</li>
+    <li>Solte o botão<li>
+</ol>
 
-Grave o firmware .uf2
+Agora descubra o ponto de montagem:
+
+```bash
+    ls /media/$USER
+```
+Normalmente aparecerá:
+
+```bash
+    RP2350
+```
+
+Grave o firmware:
+
+```bash
+    cp pico_sysmon_device.uf2 /media/$USER/RP2350/
+    sync
+```
+
+A Pico vai reiniciar automaticamente.
 
 Reconecte a placa sem BOOTSEL
 
