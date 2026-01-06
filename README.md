@@ -103,7 +103,7 @@ Comfirme que existe:
 
 <ol>
     <li>Desconecte a Pico</li>
-    <li>Segure o botão BOOTSEL<li>
+    <li>Segure o botão BOOTSEL</li>
     <li>Conecte o USB</li>
     <li>Solte o botão<li>
 </ol>
