@@ -70,17 +70,68 @@ pico_sysmon/
 - Último comando recebido
 
 ## ▶️ Como rodar o projeto
-📋 Pré-requisitos
 
-Linux (Ubuntu 22.04+ recomendado)
+### Pré-requisitos do sistema
 
-Kernel headers instalados
+Atualizar o sistema
 
-Raspberry Pi Pico 2
+```bash
+sudo apt update && sudo apt upgrade -y
+```
 
-Pico SDK configurado
+Instalar dependências básicas:
 
-GCC
+```bash
+sudo apt install -y \
+  build-essential \
+  cmake \
+  git \
+  linux-headers-$(uname -r)
+```
+
+## Configurar o Pico SDK (se já não estiver configurado)
+
+```bash
+cd ~
+git clone https://github.com/raspberrypi/pico-sdk.git
+```
+
+Inicializar submódulos:
+
+```bash
+cd pico-sdk
+git submodule update --init
+```
+
+Exportar variável de ambiente:
+
+```bash
+echo 'export PICO_SDK_PATH=$HOME/pico-sdk' >> ~/.bashrc
+source ~/.bashrc
+```
+
+Verifique:
+
+```bash
+echo $PICO_SDK_PATH
+```
+
+## Estrutura do projeto
+
+Entre no projeto:
+
+```bash
+cd ~/pico_sysmon
+```
+
+Estrutura esperada:
+
+```bash
+pico_sysmon/
+├── device/     # Firmware da Pico 2
+├── driver/     # Driver Linux
+└── user_app/   # Aplicação de usuário (opcional)
+```
 
 ## Compilar e gravar o firmware da Pico 2
 
