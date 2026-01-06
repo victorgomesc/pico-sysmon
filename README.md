@@ -1,15 +1,51 @@
 # Pico SysMon
 
-Projeto de driver Linux desenvolvido para fins acadêmicos, utilizando
-um periférico USB genérico (Raspberry Pi Pico 2) como gatilho de
-ativação do driver.
+## 📌 Resumo do Projeto
 
-## Objetivo
-Demonstrar o desenvolvimento de um driver Linux com:
-- Operações `read()` e `write()`
-- Integração com o subsistema USB
-- Coleta de métricas do kernel Linux
-- Comunicação com aplicação em espaço de usuário
+O **Pico SysMon** é um projeto de monitoramento de recursos do sistema desenvolvido em nível de kernel Linux, utilizando um **driver USB** e um **dispositivo físico real** (Raspberry Pi Pico 2).  
+O projeto demonstra a integração completa entre **hardware USB**, **driver Linux** e **aplicação em espaço de usuário**, coletando e exibindo métricas como uso de CPU por núcleo, uso de memória RAM e temperatura do processador.
+
+O objetivo principal é demonstrar conceitos de **desenvolvimento de drivers**, **comunicação USB**, **interação kernel ↔ hardware**, e **arquitetura de sistemas operacionais**.
+
+---
+
+## 🎯 O que o projeto faz
+
+O Pico SysMon fornece:
+
+- Uso de **CPU por core (%)**
+- Uso total de **memória RAM (%)**
+- **Temperatura real da CPU** (quando disponível)
+- Comunicação via **dispositivo USB Vendor**
+- Interface de leitura via `/dev/pico_sysmon`
+
+A saída é exibida de forma organizada e legível diretamente no terminal.
+
+Exemplo de saída:
+
+```text
+====================================
+           PICO SYSMON
+====================================
+Mode        : USB
+Uptime      : 1956 s
+Load Avg    : 0 0 0
+
+MEMORY
+------------------------------------
+RAM Usage   : 7307 / 17826 MB (40 %)
+
+TEMPERATURE
+------------------------------------
+CPU Temp    : 41.5 °C
+
+CPU USAGE (per core)
+------------------------------------
+CPU0  :   1 %
+CPU1  :   0 %
+CPU2  :   0 %
+...
+```
 
 ## Arquitetura
 pico_sysmon/
@@ -17,8 +53,6 @@ pico_sysmon/
 ├── driver/ # Driver Linux (kernel module)
 └── user_app/ # Aplicação de usuário
 
-markdown
-Copiar código
 
 ## Funcionamento
 - O driver cria o dispositivo `/dev/pico_sysmon` no carregamento.
@@ -31,6 +65,7 @@ Copiar código
 - Uptime do sistema
 - Load average
 - Memória RAM total e livre
+- Temperatura da CPU
 - Estatísticas de CPU por núcleo
 - Último comando recebido
 
