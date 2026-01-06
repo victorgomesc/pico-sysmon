@@ -31,7 +31,7 @@ uint8_t const * tud_descriptor_device_cb(void) {
 
 #define CONFIG_TOTAL_LEN (TUD_CONFIG_DESC_LEN + TUD_VENDOR_DESC_LEN)
 #define ITF_NUM_VENDOR   0
-#define STRID_VENDOR     0   // pode deixar 0 (sem string de interface)
+#define STRID_VENDOR     0   
 #define EPNUM_VENDOR_OUT 0x01
 #define EPNUM_VENDOR_IN  0x81
 #define EP_SIZE          64
@@ -39,7 +39,6 @@ uint8_t const * tud_descriptor_device_cb(void) {
 uint8_t const desc_configuration[] = {
   TUD_CONFIG_DESCRIPTOR(1, 1, 0, CONFIG_TOTAL_LEN, 0x00, 100),
 
-  // assinatura correta: (itfnum, stridx, epout, epin, epsize)
   TUD_VENDOR_DESCRIPTOR(ITF_NUM_VENDOR, STRID_VENDOR, EPNUM_VENDOR_OUT, EPNUM_VENDOR_IN, EP_SIZE),
 };
 
