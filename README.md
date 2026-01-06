@@ -69,24 +69,43 @@ pico_sysmon/
 - Estatísticas de CPU por núcleo
 - Último comando recebido
 
-## Compilação
+## ▶️ Como rodar o projeto
+📋 Pré-requisitos
 
-### Driver
+Linux (Ubuntu 22.04+ recomendado)
+
+Kernel headers instalados
+
+Raspberry Pi Pico 2
+
+Pico SDK configurado
+
+GCC
+
+### 🔧 Compilar e carregar o driver
 ```bash
-cd driver
+cd pico_sysmon/driver
 make
 sudo insmod pico_sysmon.ko
-User App
-bash
-Copiar código
-cd user_app
-gcc sysmon_cli.c -o sysmon
-./sysmon
-Testes
-bash
-Copiar código
-cat /dev/pico_sysmon
-./sysmon "CPU?"
+```
+Verificar se o driver está carregado:
+
+```bash
+    lsmod | grep pico_sysmon
+```
+
+### 🔌 Executar com a Pico conectada
+
+Desconecte a Pico do computador.
+Aperte o BOOTSEL.
+Conecte o cabo a porta USB.
+
+Grave o firmware .uf2
+
+Reconecte a placa sem BOOTSEL
+
+
+
 Observações
 O projeto possui um modo simulado para permitir testes mesmo sem o
 hardware conectado. Quando o Raspberry Pi Pico 2 é conectado, o driver
