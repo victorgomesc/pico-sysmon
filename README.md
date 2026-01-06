@@ -105,7 +105,7 @@ Comfirme que existe:
     <li>Desconecte a Pico</li>
     <li>Segure o botão BOOTSEL</li>
     <li>Conecte o USB</li>
-    <li>Solte o botão<li>
+    <li>Solte o botão</li>
 </ol>
 
 Agora descubra o ponto de montagem:
@@ -127,10 +127,59 @@ Grave o firmware:
 ```
 
 A Pico vai reiniciar automaticamente.
-
+Desconecte o USB
 Reconecte a placa sem BOOTSEL
 
+Verifique:
 
+```bash
+lsusb
+```
+Você deve ver algo como:
+
+```bash
+Pico SysMon Device
+```
+
+## Compilar e carregar o driver Linux
+
+### Compilar o driver
+
+```bash
+cd ~/pico_sysmon/driver
+make clean
+make
+```
+
+### Carregar o módulo
+
+```bash
+sudo insmod pico_sysmon.ko
+```
+
+Verifique:
+
+```bash
+lsmod | grep pico_sysmon
+```
+
+## Verificar criação do device
+
+```bash
+ls -l /dev/pico_sysmon
+```
+
+Deve existir algo como:
+
+```bash
+crw------- 1 root root ...
+```
+
+## Rodar o projeto (final)
+
+```bash
+sudo cat /dev/pico_sysmon
+```
 
 Observações
 O projeto possui um modo simulado para permitir testes mesmo sem o
