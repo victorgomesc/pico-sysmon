@@ -49,9 +49,9 @@ CPU2  :   0 %
 
 ## Arquitetura
 pico_sysmon/
-├── device/ # Firmware do Pico 2 (USB Vendor)
-├── driver/ # Driver Linux (kernel module)
-└── user_app/ # Aplicação de usuário
+├── device/     # Firmware da Pico 2
+├── driver/     # Driver Linux
+└── user_app/   # Aplicação de usuário (opcional)
 
 
 ## Funcionamento
